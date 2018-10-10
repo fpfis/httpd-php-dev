@@ -18,5 +18,5 @@ RUN apk add autoconf make g++ gcc -t build-stack --no-cache && \
 RUN rm /usr/local/etc/php/conf.d/95-prod.ini &&\
     rm /etc/apache2/conf.d/prod.conf
 
-### Add dev settings :
+### Add dev settings ... :
 ADD dev.ini /usr/local/etc/php/conf.d/95-dev.ini
